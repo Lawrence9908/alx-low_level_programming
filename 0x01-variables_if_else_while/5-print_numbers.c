@@ -8,7 +8,9 @@
  */
 int main(void)
 {
-	for (int single_digit = 0; single_digit < 10; single_digit++)
+	int single_digit;
+
+	for (single_digit = 0; single_digit < 10; single_digit++)
 	{
 		printf("%d", single_digit);
 	}
