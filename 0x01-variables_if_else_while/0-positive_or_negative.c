@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - entry point of the program
- *Th program will check whether n is zero 
+ *main - entry point of the programs
+ *Th program will check whether n is zero
  *negative or positive
- *Return : returns 0
+ *Return : return 0
  */
 int main(void)
 {
@@ -15,15 +15,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("is positive\n");
+		printf("%d is positive\n",n);
 	}
 	else if (n == 0)
 	{
-		printf("is zero\n");
+		printf("%d is zero\n",n);
 	}
 	else
 	{
-		printf("is negative\n");
+		printf("%d is negative\n",n);
 	}
 	return (0);
 }
