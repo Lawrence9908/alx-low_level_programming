@@ -1,16 +1,13 @@
 
 #include <stdio.h>
-
 /**
- *
  *main - main is the entry point of the programme the execution start from their
+ *The programme will print different sizes of datatypes
+ *
  *
  *Return: return 0 if there no error in the programme
- *
- * */
-
+ */
 int main(void)
-
 {
 
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
