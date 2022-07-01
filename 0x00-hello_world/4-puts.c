@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *main - main function
+ *main - is the main function where the start
+ * the programme print a string using puts() function
  *
  *Return : return  0
  */
