@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- *main - entry poin of the program 
+ *main - entry poin of the program
  *The program will print alphabet in lowcase
  *
  *Return: return 0
