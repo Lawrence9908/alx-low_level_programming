@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *main - is the main function where the start
- * the programme print a string using puts() function
+ *main - Main is the main function where the start
+ *The programme print a string using puts() function
  *
- *Return : return  0
+ *Return: return 0 which means everything is good
  */
 int main(void)
 {
