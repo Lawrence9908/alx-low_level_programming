@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- *main: is the main function of the programm
- *The programme will print out the sizes of (char, int , float,double)
- *The output will be displayed using prinrf() function
+ *main - main functions
+ *
+ *
  *Return: return 0
  */
 int main(void)
 {
-	printf("Size of long int %lu\n", sizeof(long int));
-	printf("Size of long long int %lu\n", sizeof(long long int));
-	printf("Size of int %lu\n", sizeof(int));
-	printf("Size of float %lu\n", sizeof(float));
-	printf("Size of char %lu\n", sizeof(char));
-	printf("Size of double %lu\n", sizeof(double));
+	printf("Size of an int: %lu\n bytes(s)", sizeof(int));
+	printf("Size of a long int: %lu\n bytes(s)", sizeof(long int));
+	printf("Size of a long long int: %lu\n bytes(s)", sizeof(long long int));
+	printf("Size of a float: %lu\n bytes(s)", sizeof(float));
+	printf("Size of a char: %lu\n bytes(s)", sizeof(char));
+	printf("Size of a double: %lu\n bytes(s)", sizeof(double));
 	return (0);
 }
