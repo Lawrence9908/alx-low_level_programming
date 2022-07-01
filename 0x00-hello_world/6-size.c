@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 /**
- *main - main is the entry point of the programme the execution start from their
+ *main - main is the entry point of the programme
  *The programme will print different sizes of datatypes
  *
  *
@@ -16,5 +16,4 @@ int main(void)
 	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));	
 	printf("Size of a float: %d byte(s)\n", sizeof(float));
 	return (0);
-
 }
