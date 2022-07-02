@@ -17,7 +17,7 @@ int main(void)
 		{
 			for (number = 'a'; number <= 'f'; number ++)
 			{
-				putcahr(number);
+				putchar(number);
 			}
 			break;
 		}

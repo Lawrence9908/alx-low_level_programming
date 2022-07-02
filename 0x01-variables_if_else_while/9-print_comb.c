@@ -15,7 +15,7 @@ int main(void)
 		putchar(number);
 		if (number == '9')
 		{
-			contionue;
+			continue;
 		}
 		putchar(',');
 		putchar(' ');
