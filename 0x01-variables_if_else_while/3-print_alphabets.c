@@ -4,7 +4,7 @@
  *main  - entry point of the program
  *The program will print alphabet in lowercase and uppercase
  *
- *Return: return 0 
+ *Return: return 0
  */
 int main(void)
 {
