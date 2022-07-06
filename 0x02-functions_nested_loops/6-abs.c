@@ -6,7 +6,14 @@
  *Rertun: returns the abs value
  *
  */
-int _abs(int)
+int _abs(int c)
 {
-	return abs(n);
+	if (c < 0)
+	{
+		return -(c);
+	}
+	else
+	{
+		return c;
+	}
 }
