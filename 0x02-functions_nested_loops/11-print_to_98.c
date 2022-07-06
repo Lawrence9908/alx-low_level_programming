@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  *print_to_98 - print natural numbers from n to 98
- *
+ *@number: input valuei
  *
  *Return: return void
  */
@@ -22,6 +22,6 @@ void print_to_98(int number)
 		{
 			printf("%d, ", number++);
 		}
-		printf("%d, ", number);
+		printf("%d\n, ", number);
 	}
 }
