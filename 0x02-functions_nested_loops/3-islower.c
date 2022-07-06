@@ -1,14 +1,14 @@
 #include <ctype.h>
 #include "main.h"
 /**
- *main - check the code
+ *_islower - check if input is lowercase or not
  *
  *Return: returns 0 if the input isupper 
  *1 if the input islower
  */
 int _islower(int c)
 
-	if (islower(c))
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
