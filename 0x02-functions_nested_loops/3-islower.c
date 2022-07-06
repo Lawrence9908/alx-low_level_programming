@@ -1,9 +1,8 @@
-#include <ctype.h>
 #include "main.h"
 /**
  *_islower - check if input is lowercase or not
- *
- *Return: returns 0 if the input isupper 
+ *@c: input
+ *Return: returns 0 if the input isupper
  *1 if the input islower
  */
 int _islower(int c)
