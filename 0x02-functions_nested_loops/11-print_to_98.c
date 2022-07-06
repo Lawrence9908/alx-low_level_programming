@@ -22,6 +22,6 @@ void print_to_98(int number)
 		{
 			printf("%d, ", number++);
 		}
-		printf("%d\n, ", number);
+		printf("%d\n", number);
 	}
 }
