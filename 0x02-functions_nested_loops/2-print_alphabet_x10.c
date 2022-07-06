@@ -8,7 +8,7 @@
 void print_alphabet_x10(void)
 {
 	int outer_loop;
-	char inner_loop;
+	int inner_loop;
 
 	for (outer_loop = 1; outer_loop <= 10; outer_loop++)
 	{
