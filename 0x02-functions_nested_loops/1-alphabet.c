@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  *main - entry level of the program
  *The program print the alphabets in lower case
