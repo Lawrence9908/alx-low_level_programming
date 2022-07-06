@@ -2,6 +2,7 @@
 #include "main.h"
 /**
  *_isalpha - check wether input is alphabet or not
+ *@c: input to check if alphabet or not
  *Return: 1 if true  0 if false
  */
 int _isalpha(int c)
