@@ -23,7 +23,7 @@ void print_to_98(int number)
 	}
 	else
 	{
-		for ( j = number; j  <= 98; j ++)
+		for ( j = number; j <= 98; j++)
 		{
 			if (j != number)
 			{
@@ -33,3 +33,4 @@ void print_to_98(int number)
 		}
 	}
 	printf("\n");
+}
