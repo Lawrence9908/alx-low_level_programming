@@ -25,11 +25,11 @@ void print_to_98(int number)
 	{
 		for ( j = number; j  <= 98; j ++)
 		{
-			if (i != number)
+			if (j != number)
 			{
 				printf(",");
 			}
 			printf("%d", j);
 		}
 	}
-	printf('\n');
+	printf("\n");
