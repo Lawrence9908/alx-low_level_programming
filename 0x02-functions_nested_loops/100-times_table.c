@@ -1,6 +1,5 @@
 #include "main.h"
 /**
-  *main - entry point of the program
   *print_times_table - prints the  times table with
   *
   *@n: parameter

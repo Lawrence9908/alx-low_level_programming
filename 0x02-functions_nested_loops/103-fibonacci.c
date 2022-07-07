@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
- *
- *main - prints sum of even fibonacci
- *Return: return 0
- *
- * */
+  *main - prints sum of even fibonacci
+  *Return: return 0
+  *
+  */
 int main(void)
 {
 	unsigned long num1 = 0, num2 = 1, num3 = 0, sum = 0;
