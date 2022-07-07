@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *
- *print_times_table - prints the  times table with
- *
- *@n: parameter
- *Return: return 0
- */
+  *main - entry point of the program
+  *print_times_table - prints the  times table with
+  *
+  *@n: parameter
+  *Return: return 0
+  */
 void print_times_table(int n)
 {
 	int x, y, result;
