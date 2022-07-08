@@ -7,6 +7,7 @@ int main(void)
 {
 	long n = 612852475143;
 	int i;
+
 	while (i++ < n / 2)
 	{
 		if (n % i == 0)
@@ -22,5 +23,6 @@ int main(void)
 			}
 	}
 	printf("%ld\n", n);
+
 	return (0);
 }
