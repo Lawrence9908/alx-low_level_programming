@@ -1,13 +1,12 @@
 #include <stdio.h>
-
 /**
  * main - entry point of the program
  * Return: returns 0
  */
-
 int main(void)
 {
 	int number;
+
 	while (number++ < 100)
 		if ((number % 3 == 0) && (number % 5 == 0))
 		{
