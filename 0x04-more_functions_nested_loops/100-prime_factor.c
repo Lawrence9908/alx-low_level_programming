@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main- prints the largest prime factor
+ * main - prints the largest prime factor
  * Return: returns 0
  */
 int main(void)
