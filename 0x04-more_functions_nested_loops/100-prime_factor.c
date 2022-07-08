@@ -5,24 +5,21 @@
  */
 int main(void)
 {
-	long n = 612852475143;
-	int i;
+	long number = 612852475143;
+	int inc;
 
-	while (i++ < n / 2)
+	while (inc++ < number / 2)
 	{
-		if (n % i == 0)
+		if (number % inc == 0)
 		{
-			n /= 2;
+			number /= 2;
 			continue;
 		}
-		for (i = 3; i < n / 2; i += 2)
+		for (inc = 3; inc < number / 2; inc += 2)
 		{
-			if (n % i == 0)
-			{
-				n /= i;
-			}
+			if (number % inc == 0)
+				number /= inc;
 	}
-	printf("%ld\n", n);
-
+	printf("%ld\n", number);
 	return (0);
 }
