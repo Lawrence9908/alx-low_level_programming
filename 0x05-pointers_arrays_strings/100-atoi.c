@@ -1,12 +1,13 @@
 /**
  * _atoi - changes a string to an int
- *@s: input
+ * @s: input
  * Return: returns integer
  */
 int _atoi(char *s)
 {
 	int i = 1;
 	unsigned int number = 0;
+
 	do {
 		if (*s == '-')
 		{
