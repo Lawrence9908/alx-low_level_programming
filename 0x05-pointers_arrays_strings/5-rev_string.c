@@ -6,13 +6,15 @@
  */
 void rev_string(char *s)
 {
-	int i = 0, len;
-	len = _strlen(s) - 1;
-	while (len > i)
+	int i = 0, l;
+
+	l = _strlen(s) - 1;
+
+	while (l > i)
 	{
-		swap_char(s + len, s + i);
+		swap_char(s + l, s + i);
 		i++;
-		len--;
+		l--;
 	}
 }
 /**
@@ -23,6 +25,7 @@ void rev_string(char *s)
 int _strlen(char *s)
 {
 	int count, i;
+
 	i = 0;
 
 	for (count = 0; s[count] != '\0'; count++)
