@@ -5,7 +5,7 @@
  * @src: string to be concatinated to dest string
  * Return: returns a pointer to the resulting string dest
  */
-char *_strcat(char *dest, char *src
+char *_strcat(char *dest, char *src)
 {
 	int i = 0, dest_length = 0;
 
