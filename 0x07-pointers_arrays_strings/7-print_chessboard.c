@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- * print_chessboard - prints chessboard.
+ * print_chessboard - prints chessboard
  * @a: matrix
  * Return: return nothing
  */
