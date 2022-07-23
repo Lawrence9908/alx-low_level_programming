@@ -2,9 +2,10 @@
 /**
  * _strspn - function that gets the length of a prefix substring
  * @s: input string
- * @ : input string
+ * @accept : input string
  * Return: return length of occurrence
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int bytes = 0;
